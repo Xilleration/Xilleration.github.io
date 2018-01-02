@@ -60,6 +60,10 @@ li a:hover {
 .active {
     background-color: #048fc6;
 }
+.activeban {
+    background-color: red;
+	color: black;
+}
 
 #CommanderList {
   display: flex;
