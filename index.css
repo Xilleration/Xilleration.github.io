@@ -27,33 +27,23 @@ ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    overflow: hidden;
+    background-color: #333;
 }
+
 li {
-    display: inline;
-}
-
-
-.card xln border-black{
-	width: 25%;
-	
-}
-
-.card-grid {
-    padding: 0 2.5%;
-    width: 100%;
-    line-height: 20px;
-    margin: 20px 0 15px 0;
-}
-.card-grid-item {
-    page-break-after: auto;
-    page-break-before: auto;
-    page-break-inside: avoid;
-    position: relative;
-    display: block;
     float: left;
-    width: 48.75%;
-    
-    margin: 0 0.6% 1.5% 0.6%;
-    position: relative;
-    
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
 }
