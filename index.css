@@ -84,7 +84,7 @@ li a:hover {
 	font-size: 10px;
 	color: white;
 	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
-	position: absolute;
+	position: fixed;
 	top: 30px;
 	right: 0px;
 	padding-right: 134px;
