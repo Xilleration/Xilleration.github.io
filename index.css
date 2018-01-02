@@ -1,0 +1,12 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+
+    height: 100%;   
+    box-sizing: border-box;
+    margin: 0px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16pt;
+    color: #E3E0E0;
+}
