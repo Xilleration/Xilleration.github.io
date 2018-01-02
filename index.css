@@ -8,7 +8,7 @@ body {
     margin: 0px;
     font-family: 'Open Sans', sans-serif;
     font-size: 16pt;
-    color: #E3E0E0;
+    color: #0E0E0E;
 }
 
 .subheader {
@@ -20,7 +20,7 @@ body {
 
 .quoted {
 	font-style: oblique;
-	color: #7F9EA4;
+	color: #101B3E;
 }
 
 ul {
@@ -45,9 +45,9 @@ li a {
 
 
 li a:hover {
-    background-color: #193E60;
+    background-color: #09083D;
 }
 .active {
-    background-color: #244B64;
+    background-color: #0F214B;
 }
 
