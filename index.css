@@ -10,3 +10,10 @@ body {
     font-size: 16pt;
     color: #E3E0E0;
 }
+
+.subheader {
+	
+	font-size: 10px;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	color: #7375BD;
+}
