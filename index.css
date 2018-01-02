@@ -75,3 +75,12 @@ li a:hover {
 	background-color: red;
 	color: black;
 }
+#slogan{
+	font-size: 10px;
+	color: white;
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+	position: absolute;
+	top: 30px;
+	right: 0px;
+	padding-right: 114px;
+}
