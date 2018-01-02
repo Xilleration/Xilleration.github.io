@@ -28,11 +28,40 @@
 		"Your favorite MTG format using only Standard Cards!" - <b class="quoted">Motumbo</b></p>
 	
 	</a>
-<p id="slogan"><div id="quoteDisplay">
+<p id="slogan">
 	<!-- Quotes here -->
-	</div></p>
-	<button onclick="newQuote()">New Quote</button>
-	<script src="Quote gen/quotesj.js"></script>
+
+<script language="JavaScript">
+// ==============================================
+// Copyright 2004 by CodeLifter.com
+// Free for all; but please leave in this header.
+// ==============================================
+
+var Quotation=new Array() // do not change this!
+
+// Set up the quotations to be shown, below.
+// To add more quotations, continue with the
+// pattern, adding to the array.  Remember
+// to increment the Quotation[x] index!
+
+Quotation[0] = "Your favorite MTG format using only Standard Cards! - Motumbo";
+Quotation[1] = "... Yeah, I like that... - David";
+Quotation[2] = "Do I have to use backslashes on ALL these?! - Brandon";
+Quotation[3] = "Your favorite MTG format using only Standard Cards! - Motumbo";
+Quotation[4] = "Your favorite MTG format using only Standard Cards! - Motumbo";
+Quotation[5] = "Your favorite MTG format using only Standard Cards! - Motumbo";
+
+// ======================================
+// Do not change anything below this line
+// ======================================
+var Q = Quotation.length;
+var whichQuotation=Math.round(Math.random()*(Q-1));
+function showQuotation(){document.write(Quotation[whichQuotation]);}
+showQuotation();
+</script>
+
+	</p>
+	
 
 </body>
 </html>
