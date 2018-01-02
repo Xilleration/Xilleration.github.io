@@ -17,3 +17,8 @@ body {
 	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
 	color: #7375BD;
 }
+
+.quoted {
+	font-style: oblique;
+	color: #7F9EA4;
+}
