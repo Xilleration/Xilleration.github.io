@@ -65,7 +65,12 @@ li a:hover {
 	color: black;
 }
 
-#CommanderList {
+#commanderlist {
+  margin-left: 12.5%;
+	margin-right: 12.5%;
+	align-content: center;
+}
+#upcomingcommanderlist {
   margin-left: 12.5%;
 	margin-right: 12.5%;
 	align-content: center;
