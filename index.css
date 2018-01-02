@@ -22,3 +22,38 @@ body {
 	font-style: oblique;
 	color: #7F9EA4;
 }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li {
+    display: inline;
+}
+
+
+.card xln border-black{
+	width: 25%;
+	
+}
+
+.card-grid {
+    padding: 0 2.5%;
+    width: 100%;
+    line-height: 20px;
+    margin: 20px 0 15px 0;
+}
+.card-grid-item {
+    page-break-after: auto;
+    page-break-before: auto;
+    page-break-inside: avoid;
+    position: relative;
+    display: block;
+    float: left;
+    width: 48.75%;
+    
+    margin: 0 0.6% 1.5% 0.6%;
+    position: relative;
+    
+}
