@@ -12,6 +12,12 @@ body {
 	background: #E8E8E8;
 }
 
+.ban:hover {
+ color:#000000;
+ background-color: red;
+}
+
+
 .subheader {
 	
 	font-size: 10px;
