@@ -47,3 +47,7 @@ li a {
 li a:hover {
     background-color: #193E60;
 }
+.active {
+    background-color: #244B64;
+}
+
