@@ -12,10 +12,7 @@ body {
 	background: #E8E8E8;
 }
 
-.ban:hover {
- color:#000000;
- background-color: red;
-}
+
 
 
 .subheader {
@@ -64,3 +61,8 @@ li a:hover {
     background-color: #222222;
 }
 
+
+#bans:hover {
+	background-color: red;
+	color: black;
+}
