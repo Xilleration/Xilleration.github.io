@@ -1,91 +1,226 @@
-@charset "utf-8";
-/* CSS Document */
-
-body {
-
-    height: 100%;   
-    box-sizing: border-box;
-    margin: 0px;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 16pt;
-    color: #0E0E0E;
-	background: #E8E8E8;
-}
-
-
-
-
-.subheader {
-	
-	font-size: 10px;
-	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
-	color: #181A5A;
-}
-
-.quoted {
-	font-style: oblique;
-	color: #101B3E;
-}
-
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-    position: fixed;
-    top: 0;
-    width: 100%;
-
-}
-
-li {
-    float: left;
-}
-li:last-child {border-right: none;}
-
-li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-	    border-right: 2px solid #bbb;
-}
-
-
-li a:hover {
-    background-color: #048fc6;
-}
-.active {
-    background-color: #048fc6;
-}
-.activeban {
-    background-color: red;
-	color: black;
-}
-
-#commanderlist {
-  margin-left: 12.5%;
-	margin-right: 12.5%;
-	align-content: center;
-}
-#upcomingcommanderlist {
-  margin-left: 12.5%;
-	margin-right: 12.5%;
-	align-content: center;
-}
-
-#bans:hover {
-	background-color: red;
-	color: black;
-}
-#slogan{
-	font-size: 10px;
-	color: white;
-	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
-	position: fixed;
-	top: 30px;
-	right: 0px;
-	padding-right: 134px;
+@charset "utf-8";
+
+/* CSS Document */
+
+
+
+body {
+
+
+
+    height: 100%;   
+
+    box-sizing: border-box;
+
+    margin: 0px;
+
+    font-family: 'Open Sans', sans-serif;
+
+    font-size: 16pt;
+
+    color: #0E0E0E;
+
+	background: #E8E8E8;
+
+}
+
+
+
+
+
+
+
+
+
+.subheader {
+
+	
+
+	font-size: 10px;
+
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+
+	color: #181A5A;
+
+}
+
+
+
+.quoted {
+
+	font-style: oblique;
+
+	color: #101B3E;
+
+}
+
+
+
+ul {
+
+    list-style-type: none;
+
+    margin: 0;
+
+    padding: 0;
+
+    overflow: hidden;
+
+    background-color: #333;
+
+    position: fixed;
+
+    top: 0;
+
+    width: 100%;
+
+
+
+}
+
+
+
+li {
+
+    float: left;
+
+}
+
+li:last-child {border-right: none;}
+
+
+
+li a {
+
+    display: block;
+
+    color: white;
+
+    text-align: center;
+
+    padding: 14px 16px;
+
+    text-decoration: none;
+
+	    border-right: 2px solid #bbb;
+
+}
+
+
+
+
+
+li a:hover {
+
+    background-color: #048fc6;
+
+}
+
+.active {
+
+    background-color: #048fc6;
+
+}
+
+.activeban {
+
+    background-color: red;
+
+	color: black;
+
+}
+
+
+
+#commanderlist {
+
+  margin-left: 12.5%;
+
+	margin-right: 12.5%;
+
+	align-content: center;
+
+}
+
+#upcomingcommanderlist {
+
+  margin-left: 12.5%;
+
+	margin-right: 12.5%;
+
+	align-content: center;
+
+}
+
+
+
+#bans:hover {
+
+	background-color: red;
+
+	color: black;
+
+}
+
+#slogan{
+
+	font-size: 10px;
+
+	color: white;
+
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+
+	position: fixed;
+
+	top: 30px;
+
+	right: 0px;
+
+	padding-right: 134px;
+
+}
+
+
+div.fixed {
+    position: fixed;
+    bottom: 0;
+    right: 200;
+    width: 300px;
+    border: 3px solid #73AD21;
+}
+
+
+form {
+    border: 4px solid #f1f1f1;
+}
+
+.container {
+    padding: 3px;
+    background-color: #f1f1f1;
+}
+
+
+input[type=text], input[type=submit] {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+
+input[type=checkbox] {
+    margin-top: 16px;
+}
+
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+}
+
+input[type=submit]:hover {
+    opacity: 0.8;
 }
